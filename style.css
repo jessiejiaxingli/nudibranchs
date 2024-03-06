@@ -1,0 +1,294 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	box-shadow: inset 0 0 0 0;
+	color: white;
+	padding: 0 .25rem;
+	margin: 0 -.25rem;
+	transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+	border-radius: 10px;
+}
+
+a:link, a:visited, a:active { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none;
+  color: black;
+  box-shadow: inset 200px 0 0 0 white;
+  background:
+  	linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  	);
+  ;
+} 
+
+h1{
+	color: white;
+	font-size: 2em;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	font-family: Gruppo;
+	background-color: black;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-around;
+	padding: 2vmin;
+	margin: 0vmin;
+	width: 100vw;
+	position: fixed;
+}
+
+.nav{
+	color: white;
+}
+
+.callout1{
+	display: flex;
+	font-family: solvent;
+	font-weight: bolder;
+	font-size: 5em;
+	color: white;
+	background-image: url("orbs.png");
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	justify-content: center;
+	height: 110vh;
+}
+
+.contentwrapper1{
+	display: flex;
+	background-image: url(shapes.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 90vh;
+	margin: 3vmin;
+	padding: 3vmin;
+}
+
+.content1{
+	display: flex;
+	flex-direction: column;
+	font-size: 2.5em;
+	color: white;
+	margin-top: 8vw;
+	margin-bottom: 8vw;
+	margin-right: 10vw;
+	margin-left: 10vw;
+	padding-left: 23vmin;
+	padding-right: 5vmin;
+}
+
+.small{
+	font-size: 0.5em;
+	color: white;
+}
+
+.next{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 2em;
+	color: white;
+	margin: 8vmin;
+}
+
+.links{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1em;
+	color: white;
+	width: 80vw;
+	background-image: url("spring.gif");
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#next1{
+	align-self: flex-start;
+	margin: 5vmin;
+}
+
+#next2{
+	align-self: flex-end;
+	margin: 5vmin;
+}
+
+#next3{
+	align-self: flex-start;
+	margin: 5vmin;
+}
+
+.footer{
+	display: flex;
+	justify-content: flex-end;
+	margin: 3vmin;
+	opacity: 0.3;
+	color: white;
+}
+
+/*---------------------------------------------*/
+
+.callout2{
+	display: flex;
+	font-family: solvent;
+	font-weight: bolder;
+	font-size: 5em;
+	color: white;
+	background-image: url("rainbow-ball.gif");
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.header{
+	display: flex;
+	align-content: center;
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	margin: 8vw;
+	margin-top: 3vw;
+	margin-bottom: 1vw;
+	padding: 2vw;
+}
+
+.header2{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	font-size: 2em;
+}
+
+.content2{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-size: 2em;
+	margin: 6vw;
+}
+
+.p1{
+	display: flex;
+	margin: 3vh;
+	align-items: center;
+}
+
+.p1 img{
+	aspect-ratio: 1/1;
+	object-fit: contain;
+	width: 35vw;
+}
+
+.p2{
+	display: flex;
+	text-align: right;
+	margin: 3vh;
+	align-items: center;
+}
+
+.p2 img{
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	height: 60vh;
+}
+
+/*---------------------------------------------*/
+
+.callout3{
+	display: flex;
+	font-family: solvent;
+	font-weight: bolder;
+	font-size: 5em;
+	color: white;
+	background-image: url("liquid-metal.gif");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.content3{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 6vw;
+}
+
+.c3{
+	font-size: 3em;
+}
+
+.p3{
+	font-size: 2em;
+}
+
+.p4{
+	align-self: flex-end;
+	font-size: 2em;
+	text-align: right;
+}
+
+.dropwrapper{
+	display: flex;
+	justify-content: space-around;
+}
+
+.dropdwn{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 0vmin;
+	padding: 2vmin;
+}
+
+.dropbtn{
+	background-color: white;
+	font-family: Gruppo;
+	font-weight: bolder;
+	color: black;
+	padding: 2vmin;
+	font-size: 2em;
+	border: none;
+	border-radius: 50px;
+}
+
+.dropcontent {
+  display: none;
+  font-size: 2.5em;
+  position: absolute;
+
+  background-color: black;
+  color: white;
+  min-width: 80vw;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdwn:hover .dropcontent {
+	display: flex;
+	border-radius: 10px;
+}
