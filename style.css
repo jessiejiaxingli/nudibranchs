@@ -457,7 +457,6 @@ h1{
 
 #first{
 	background-image: none;
-	height: 20vh;
 	text-align: center;
 }
 
@@ -483,9 +482,12 @@ h1{
 	align-self: center;
 }
 
+
+/*--------------------------------------------*/
+
 @media only screen and (max-width: 800px){
 	.altc1{
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	.altcontwrap1{
@@ -501,7 +503,7 @@ h1{
 	}
 
 	.altc2{
-		font-size: 4em;
+		font-size: 2em;
 	}
 
 	.altheader{
@@ -525,11 +527,15 @@ h1{
 
 	.altnext{
 		font-size: 1em;
-		width: 100vw;
+		width: 90vw;
 	}
 
 	.swirl{
 		width: 50vw;
+	}
+
+	.altc3{
+		font-size: 2em;
 	}
 
 	.altcont3{
@@ -556,13 +562,13 @@ h1{
 	}
 
 	.altdrpc{
-		font-size: 1em;
+		font-size: 0.5em;
 		left: -15svw;
 		top: -5vmin;
 	}
 
 	.altdrpc2{
-		font-size: 1em;
+		font-size: 0.5em;
 		left: -15svw;
 		top: -5vmin;
 	}
@@ -580,7 +586,7 @@ h1{
 	}
 
 	.altc4{
-		font-size: 3em;
+		font-size: 2em;
 		text-align: center;
 		height: 80vh;
 		margin-bottom: 5vmin;
@@ -592,6 +598,7 @@ h1{
 		margin-bottom: 20vmin;
 		padding: 5vmin;
 		align-self: center;
+		height: 50vh;
 	}
 
 	.altcont5{
