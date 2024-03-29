@@ -487,7 +487,7 @@ h1{
 
 @media only screen and (max-width: 800px){
 	.altc1{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	.altcontwrap1{
@@ -503,7 +503,7 @@ h1{
 	}
 
 	.altc2{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	.altheader{
@@ -535,7 +535,7 @@ h1{
 	}
 
 	.altc3{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	.altcont3{
@@ -556,19 +556,30 @@ h1{
 
 	.altdefense{
 		margin: 5vmin;
-		margin-top: 20vmin;
-		margin-bottom: 20vmin;
+		margin-top: 10vh;
+		margin-bottom: 10vh;
 		height: 70vh;
 	}
 
+	.altdropwrap{
+		flex-direction: column;
+		align-items: center;
+		margin: 5vh;
+		margin-bottom: 2.5vh;
+	}
+
+	/*.altdrpdwn{
+		margin: 1em;
+	}*/
+
 	.altdrpc{
-		font-size: 0.5em;
+		font-size: 1em;
 		left: -15svw;
 		top: -5vmin;
 	}
 
 	.altdrpc2{
-		font-size: 0.5em;
+		font-size: 1em;
 		left: -15svw;
 		top: -5vmin;
 	}
@@ -594,8 +605,8 @@ h1{
 
 	.altheader4{
 		margin: 5vmin;
-		margin-top: 20vmin;
-		margin-bottom: 20vmin;
+		margin-top: 10vh;
+		margin-bottom: 10vh;
 		padding: 5vmin;
 		align-self: center;
 		height: 50vh;
