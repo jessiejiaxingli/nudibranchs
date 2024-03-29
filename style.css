@@ -226,7 +226,7 @@ h1{
 .p2 img{
 	aspect-ratio: 1/1;
 	object-fit: cover;
-	height: 60vh;
+	width: 35vw;
 }
 
 .tonext{
@@ -498,5 +498,111 @@ h1{
 
 	.altcont1{
 		font-size: 1em;
+	}
+
+	.altc2{
+		font-size: 4em;
+	}
+
+	.altheader{
+		margin-bottom: 2vw;
+		padding-bottom: 0px;
+	}
+
+	.altheader2{
+		margin-top: 2vw;
+		padding-top: 0px;
+		height: 50vh;
+	}
+
+	.altp1{
+		font-size: 0.6em;
+	}
+
+	.altp2{
+		font-size: 0.6em;
+	}
+
+	.altnext{
+		font-size: 1em;
+		width: 100vw;
+	}
+
+	.swirl{
+		width: 50vw;
+	}
+
+	.altcont3{
+		height: 100vh;
+		margin-top: 5vmin;
+		margin-bottom: 5vmin;
+		background-size: 50%;
+	}
+
+	.altcont4{
+		height: 50vh;
+		margin: 5vmin;
+	}
+
+	.altp3{
+		font-size: 1em;
+	}
+
+	.altdefense{
+		margin: 5vmin;
+		margin-top: 20vmin;
+		margin-bottom: 20vmin;
+		height: 70vh;
+	}
+
+	.altdrpc{
+		font-size: 1em;
+		left: -15svw;
+		top: -5vmin;
+	}
+
+	.altdrpc2{
+		font-size: 1em;
+		left: -15svw;
+		top: -5vmin;
+	}
+
+	.altfi{
+		aspect-ratio: 1/1;
+		object-fit: contain;
+		width: 40%;
+	}
+
+	.altfi2{
+		aspect-ratio: 1/1;
+		object-fit: contain;
+		width: 40%;
+	}
+
+	.altc4{
+		font-size: 3em;
+		text-align: center;
+		height: 80vh;
+		margin-bottom: 5vmin;
+	}
+
+	.altheader4{
+		margin: 5vmin;
+		margin-top: 20vmin;
+		margin-bottom: 20vmin;
+		padding: 5vmin;
+		align-self: center;
+	}
+
+	.altcont5{
+		margin: 5vmin;
+		margin-top: 20vmin;
+		margin-bottom: 20vmin;
+	}
+
+	.altheader5{
+		font-size: 1.9em;
+		height: 50vh;
+		padding-right: 10vmin;
 	}
 }
