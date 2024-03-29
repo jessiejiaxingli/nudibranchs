@@ -483,3 +483,20 @@ h1{
 	align-self: center;
 }
 
+@media only screen and (max-width: 640px){
+	.altc1{
+		font-size: 3em;
+	}
+
+	.altcontwrap1{
+		margin: 5vmin;
+		height: 55vh;
+		padding-top: 10vmin;
+		padding-left: 0px;
+		background-position: center;
+	}
+
+	.altcont1{
+		font-size: 1em;
+	}
+}
