@@ -491,15 +491,20 @@ h1{
 	}
 
 	.altcontwrap1{
-		margin: 5vmin;
-		height: 55vh;
+/*		margin: 5vmin;*/
+		margin-bottom: 5vh;
+		height: auto;
 		padding-top: 10vmin;
-		padding-left: 0px;
+		padding-bottom: 10vmin;
 		background-position: center;
 	}
 
 	.altcont1{
-		font-size: 1em;
+		font-size: 1.5em;
+		margin-left: 15vw;
+		margin-right: 2vw;
+		padding-left: 0vw;
+		text-shadow: 0.1rem 0.1rem 0.15rem black;
 	}
 
 	.altc2{
