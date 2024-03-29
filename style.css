@@ -576,6 +576,7 @@ h1{
 	.altdrpc{
 		font-size: 1.5em;
 		height: auto;
+		width: 50vw;
 		left: -15svw;
 		top: -5vmin;
 	}
@@ -583,24 +584,29 @@ h1{
 	.altdrpc2{
 		font-size: 1.5em;
 		height: auto;
+		width: 50vw;
 		left: -15svw;
 		top: -5vmin;
 	}
 
+	.altp5{
+		width: auto;
+		font-size: 2em;
+	}
+
 	.altp6{
-		width: 90vw;
+		width: auto;
+		font-size: 2em;
 	}
 
 	.altfi{
 		aspect-ratio: 1/1;
 		object-fit: contain;
-		width: 40%;
 	}
 
 	.altfi2{
 		aspect-ratio: 1/1;
 		object-fit: contain;
-		width: 40%;
 	}
 
 	.altc4{
